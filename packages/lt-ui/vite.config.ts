@@ -5,7 +5,7 @@ export default defineConfig({
   build: {
     outDir: 'lib',
     lib: {
-      entry: 'src/my-element.ts',
+      entry: 'src/index.ts',
       name: 'lt',
     },
     rollupOptions: {
