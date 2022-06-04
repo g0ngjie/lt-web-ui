@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LT-UI</title>
-    <script type="module" src="/src/index.ts"></script>
-  </head>
-  <body>
-    <my-element>
-      <p>This is child content</p>
-    </my-element>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LT-UI</title>
+  <script type="module" src="/src/index.ts"></script>
+</head>
+
+<body>
+  <h2>custom</h2>
+  <my-element>
+    <p>This is child content</p>
+  </my-element>
+  <h2>button</h2>
+  <lt-button type="primary">primary</lt-button>
+  <lt-button type="dashed">dashed</lt-button>
+  <lt-button type="flat">flat</lt-button>
+  <lt-button>default</lt-button>
+  <h2>loading</h2>
+  <lt-loading></lt-loading>
+  <lt-loading size="40" color="green"></lt-loading>
+  <lt-loading size="60" color="olivedrab"></lt-loading>
+  <lt-loading size="80" color="orange"></lt-loading>
+
+</body>
+
 </html>
